@@ -12,11 +12,11 @@ const Header = () => {
 
     return (
         <div className='shadow-md w-full fixed top-0 left-0'>
-           <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
+           <div className='md:flex items-center justify-between bg-white py-2 md:px-10 px-7'>
             {/* logo section */}
             <div className='font-bold text-2xl cursor-pointer flex flex-col items-center gap-1 sm:flex-row'>
   <div className="flex flex-col text-[#707070] text-center sm:text-left">
-    <div className="text-4xl sm:text-6xl">Manish </div>
+    <div className="text-2xl sm:text-4xl">Manish </div>
     <div className="text-xl sm:text-2xl">Chandrashekhar</div>
   </div>
   <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex">
@@ -24,7 +24,7 @@ const Header = () => {
     <div className="ml-4 text-[#707070]">
       {/* Your content goes here */}
       <p className="mt-2 text-sm sm:text-base">SERIAL ENTREPRENEUR</p>
-      <p className="mt-2 text-sm sm:mt-4 sm:text-base">CLIMATE-TECH</p>
+      <p className="text-sm sm:mt-4 sm:text-base">CLIMATE-TECH</p>
     </div>
   </div>
 </div>
