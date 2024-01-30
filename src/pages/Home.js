@@ -6,6 +6,8 @@ import Banner from "../components/individual/Banner"
 import Photo from "../components/individual/Photo"
 import About from '../components/individual/About'
 import Services from '../components/individual/Services'
+import Contact from '../components/individual/Contact'
+import Footer from '../components/individual/Footer'
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
         <Photo/>
         <About/>
         <Services/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
