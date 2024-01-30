@@ -8,7 +8,7 @@ const Header = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className='shadow-md w-full fixed top-0 left-0'>
+    <div className='shadow-md w-full fixed top-0 left-0 font-hoefler-text'>
       <div className='md:flex items-center justify-between bg-white py-2 md:px-10 px-7'>
         {/* logo section */}
         <div className='font-bold text-2xl cursor-pointer flex flex-col items-center gap-1 sm:flex-row'>
@@ -18,7 +18,7 @@ const Header = () => {
           </div>
           <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex">
             <div className="border-b border-gray-500 sm:border-r sm:border-b-0 sm:h-24 w-full"></div>
-            <div className="ml-4 text-[#707070]">
+            <div className="ml-4 text-[#707070] italic">
               {/* Your content goes here */}
               <p className="mt-2 text-sm sm:text-base">SERIAL ENTREPRENEUR</p>
               <p className="text-sm sm:mt-4 sm:text-base">CLIMATE-TECH</p>

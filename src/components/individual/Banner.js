@@ -4,7 +4,7 @@ import img from '../../assets1/img1.png';
 const Banner = () => {
   return (
     <section
-      className="bg-cover bg-center py-8"
+      className="bg-cover bg-center py-8 italic font-palatino "
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="mx-auto max-w-screen-xl px-4 py-16 lg:flex lg:h-screen lg:items-center">

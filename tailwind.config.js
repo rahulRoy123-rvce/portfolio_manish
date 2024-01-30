@@ -9,7 +9,12 @@ module.exports = withMT({
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'hoefler-text': ['Hoefler Text', 'serif'],
+        'palatino': ['Palatino', 'serif'],
+      },
+    },
   },
   plugins: [],
 });

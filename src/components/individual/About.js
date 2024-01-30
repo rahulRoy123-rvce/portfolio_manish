@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section class=" body-font bg-[#C9C9C9]">
+    <section class=" body-font bg-[#C9C9C9] font-palatino">
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <h2 class="sm:text-6xl text-2xl text-gray-900 font-medium title-font mb-2 md:w-2/5">
-          About me, a journey of resilience and discovery, unfolds with each new
+          About me, a journey of resilience and discovery,<div className="italic">unfolds with each new</div> 
           chapter.
         </h2>
         <div class="md:w-3/5 md:pl-6">
