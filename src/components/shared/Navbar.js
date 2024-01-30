@@ -14,21 +14,21 @@ const Header = () => {
         <div className='shadow-md w-full fixed top-0 left-0'>
            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
             {/* logo section */}
-            <div className='font-bold text-2xl cursor-pointer flex items-center gap-1'>
-                <div className="flex flex-col text-[#707070]">
-                    <div className="text-6xl">Manish </div>
-                    <div className="text-2xl">Chandrashekhar</div>
-                </div>
-                <div className="flex">
-      <div className="border-r border-gray-500 h-24"></div>
-      <div className="ml-4 text-[#707070]">
-        {/* Your content goes here */}
-        <p className="mt-2 ">SERIAL ENTREPRENEUR</p>
-        <p className="mt-4">CLIMATE-TECH</p>
-      </div>
+            <div className='font-bold text-2xl cursor-pointer flex flex-col items-center gap-1 sm:flex-row'>
+  <div className="flex flex-col text-[#707070] text-center sm:text-left">
+    <div className="text-4xl sm:text-6xl">Manish </div>
+    <div className="text-xl sm:text-2xl">Chandrashekhar</div>
+  </div>
+  <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex">
+    <div className="border-b border-gray-500 sm:border-r sm:border-b-0 sm:h-24 w-full"></div>
+    <div className="ml-4 text-[#707070]">
+      {/* Your content goes here */}
+      <p className="mt-2 text-sm sm:text-base">SERIAL ENTREPRENEUR</p>
+      <p className="mt-2 text-sm sm:mt-4 sm:text-base">CLIMATE-TECH</p>
     </div>
-                {/* <span>Inscribe</span> */}
-            </div>
+  </div>
+</div>
+
             {/* Menu icon */}
             <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
                 {
