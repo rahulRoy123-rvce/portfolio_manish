@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import TextBanner from './TextBanner';
 
 const Header = () => {
   let Links = [
@@ -8,20 +9,20 @@ const Header = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className='shadow-md w-full fixed top-0 left-0 font-hoefler-text'>
-      <div className='md:flex items-center justify-between bg-white py-2 md:px-10 px-7'>
+    <div className='shadow-md w-full fixed top-0 left-0 font-hoefler-text z-40'>
+      <div className='md:flex items-center justify-between bg-white md:px-10 px-7'>
         {/* logo section */}
         <div className='font-bold text-2xl cursor-pointer flex flex-col items-center gap-1 sm:flex-row'>
           <div className="flex flex-col text-[#707070] text-center sm:text-left">
-            <div className="text-2xl sm:text-4xl">Manish </div>
-            <div className="text-xl sm:text-2xl">Chandrashekhar</div>
+            <div className="text-xl sm:text-2xl">Manish </div>
+            <div className="text-lg sm:text-xl">Chandrashekhar</div>
           </div>
           <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex">
             <div className="border-b border-gray-500 sm:border-r sm:border-b-0 sm:h-24 w-full"></div>
             <div className="ml-4 text-[#707070] italic">
               {/* Your content goes here */}
               <p className="mt-2 text-sm sm:text-base">SERIAL ENTREPRENEUR</p>
-              <p className="text-sm sm:mt-4 sm:text-base">CLIMATE-TECH</p>
+              <p className="text-sm sm:mt-2 sm:text-base">CLIMATE-TECH</p>
             </div>
           </div>
         </div>
@@ -46,6 +47,7 @@ const Header = () => {
         </ul>
         {/* button */}
       </div>
+      <TextBanner/>
     </div>
   );
 };

@@ -36,7 +36,7 @@ const About = () => {
           </p>
           <div class="flex md:mt-4 mt-6">
             <button class="inline-flex text-white bg-indigo-500 border-0 py-1 px-4 focus:outline-none hover:bg-indigo-600 rounded">
-              Button
+              Contact me
             </button>
             <a class="text-indigo-500 inline-flex items-center ml-4">
               Learn More

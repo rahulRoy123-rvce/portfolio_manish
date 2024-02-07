@@ -8,18 +8,21 @@ import About from '../components/individual/About'
 import Services from '../components/individual/Services'
 import Contact from '../components/individual/Contact'
 import Footer from '../components/individual/Footer'
+import Carousel from '../components/individual/Carousel'
 
 const Home = () => {
   return (
     <div className="mt-4 mx-auto">
-       {/* <Header/>*/}\
+       {/* <Header/>*/}
         <Navbar/>
         <Banner/>
         <Photo/>
         <About/>
         <Services/>
+        <Carousel/>
         <Contact/>
         <Footer/>
+        
     </div>
   )
 }
